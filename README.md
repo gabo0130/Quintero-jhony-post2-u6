@@ -30,36 +30,4 @@ mvn exec:java
 
 ## Salida esperada
 
-```text
-Procesando pedido: P001
-  Estrategia: VIP | Descuento: 45%
-  Total final: $660.00
-  [ALERTA] Pedido de alto valor: P001
-Pedido P001 procesado.
-Procesando pedido: P002
-  Estrategia: VIP | Descuento: 30%
-  Total final: $420.00
-Pedido P002 procesado.
-Procesando pedido: P003
-  Estrategia: PREMIUM | Descuento: 15%
-  Total final: $255.00
-Pedido P003 procesado.
-Procesando pedido: P004
-  Estrategia: ESTANDAR | Descuento: 8%
-  Total final: $138.00
-Pedido P004 procesado.
-Procesando pedido: P005
-  Estrategia: ESTANDAR | Descuento: 0%
-  Total final: $80.00
-Pedido P005 procesado.
-```
-
-## Commits solicitados
-
-- `feat: implementar ProcesadorPedidos con Spaghetti Code (version inicial)`
-- `feat: crear interfaces y estrategias de descuento con patron Strategy`
-- `feat: implementar patron Command y SelectorEstrategia; refactorizar Main`
-
-## Captura de ejecucion
-
-Pendiente de agregar una captura tomada desde la ejecucion local de `mvn exec:java`.
+![Captura de ejecucion](spaghetti-lab/docs/caputa.png)
